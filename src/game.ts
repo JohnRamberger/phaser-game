@@ -39,8 +39,8 @@ export default class Demo extends Phaser.Scene
 const config = {
     type: Phaser.AUTO,
     backgroundColor: '#125555',
-    width: 1000,
-    height: 600,
+    width: window.innerWidth,
+    height: window.innerHeight,
     scene: Demo
 };
 
